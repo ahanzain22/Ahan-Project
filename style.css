@@ -1,0 +1,99 @@
+body{
+    background: url("img/bg.jpg") no-repeat;
+    background-size: 1380px 700px;
+
+}
+
+.header{
+    
+}
+
+.header a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 18px 32px;
+    color: black;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:hover{
+    color: green;
+}
+
+
+.navbar{
+    max-width: 550px;
+    background-color: lightblue;
+    border: 15px solid green;
+    padding: 15px;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+
+.navbar p{
+    text-indent: 15px;
+    text-align: justify;
+}
+
+#innerlink{
+    display: block;
+    width: 160px;
+    margin: auto;
+    padding: 25px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
+
+.mytable{
+    padding: 200px;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+.tablecontainer{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: lightsteelblue;
+    padding: 50px;
+
+}
+
+.tablecontainer table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tablecontainer table th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.tablecontainer table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.float{
+    border: 3px solid black;
+    background-color: mediumslateblue;
+    overflow: hidden;
+}
+
+.float p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+}
